@@ -1,0 +1,20 @@
+{
+  "name": "valor-dex",
+  "version": "1.0.0",
+  "description": "Comprehensive Pokedex of All Regions",
+  "author": "Tyler Boyd",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}

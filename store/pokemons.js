@@ -1,4 +1,3 @@
-import PokeApiService from '@/services/PokeApiService';
 
 export const state = () => ({
     pokemons: []

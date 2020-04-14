@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h1>Hello Poke Bros</h1>
-   
+    <h1
+      v-for="(pokemon, index) in pokemons"
+      :key="index"
+    > {{ pokemon.name }} </h1>
   </div>
 </template>
 
